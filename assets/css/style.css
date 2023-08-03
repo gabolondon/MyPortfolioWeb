@@ -511,6 +511,30 @@ section {
   background-color: #0563bb;
 }
 
+.skill-container {
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
+
+  /* padding: 20px; */
+}
+.skill-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #0563bb;
+  width: 160px;
+  height: 100px;
+  border-radius: 65px;
+  padding-top: 5px;
+}
+.skill-box p{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  align-self: center;
+}
+
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -643,6 +667,8 @@ section {
   z-index: 3;
   transition: all ease-in-out 0.3s;
   display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -684,8 +710,8 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #45505b;
-  font-size: 14px;
-  text-transform: uppercase;
+  font-size: 16px;
+  /* text-transform: uppercase; */
   padding: 0;
   margin: 0;
 }
