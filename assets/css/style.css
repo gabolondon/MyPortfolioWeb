@@ -521,18 +521,19 @@ section {
 .skill-box {
   display: flex;
   justify-content: center;
-  text-align: center;
+
+  align-items: center;
   background-color: #0563bb;
   width: 160px;
-  height: 100px;
+  height: 60px;
   border-radius: 65px;
-  padding-top: 5px;
+  padding-top: 7px;
 }
 .skill-box p{
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-  align-self: center;
+  /* align-self: center; */
 }
 
 /*--------------------------------------------------------------
@@ -637,8 +638,10 @@ section {
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
+  height: 200px;
   position: relative;
   overflow: hidden;
+  justify-content: baseline;
   z-index: 1;
   background: rgba(69, 80, 91, 0.8);
 }
@@ -769,6 +772,9 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
+}
+.swiper-limited-height{
+  max-height: 520px;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
