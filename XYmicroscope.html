@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center swiper-limited-height">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/footPedal.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/LensesZeiss.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/DCdriver.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/controlBoards.jpeg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Embedded Systems</li>
+                <li><strong>Client</strong>: Vision Total</li>
+                <li><strong>Project date</strong>: 15 march, 2018</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/gabolondon/ControlMicroscopeZeiss">github.com/ControlMicroscopeZeiss</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>Design and implement replacement control board for damaged microscope Zeiss S3 on foot pedal with STM32, and Arduino
+              sensors.
+              </h2>
+              <p>
+                The Zeiss microscope model opmi S3 at Vision Total S.A.S. had internal cards that were burnt and unresponsive. As these
+                cards were difficult to obtain, a team hooked up with a clinic and carried out a project using the STM32F103
+                small-sized, high-performance, and reliable logic controller for PWM motor control and direction interface cards.<br/>
+                The project involved taking signals from the pedal to activate the motors that executed the designed tasks. The desired
+                behavior of the microscope during surgeries included making movements of the entire optical assembly, control over the
+                zoom, focus, and light intensity via a pedal with different buttons for these functions. <br />
+                I proposed reusing the equipment's motors and taking signals from limit switch sensors to emulate control of positioning of lenses, zoom,
+                focus, and on/off of surgery light. They used 2 STM32F103 controllers, 2 L298N DC motor drive modules with speed control
+                and direction of rotation, 8 career endings, among other devices. After programming and testing, they achieved the
+                expected behavior of the control system with correctly executed connections.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
